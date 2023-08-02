@@ -1,0 +1,31 @@
+.header {
+  height: 102px;
+
+  .header__container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    .header__nav {
+      margin-left: 290px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 639px;
+      list-style: none;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 0.2em;
+
+      li {
+        padding: 4px 0;
+      }
+
+      .active {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
