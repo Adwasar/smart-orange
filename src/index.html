@@ -11,7 +11,9 @@
   <div class="wrapper">
     <header class="header">
       <div class="header__container _container">
-        <img src="../src/assets/icons/logo/logo-small.svg" class="header__logo"></img>
+        <div class="header__logo-container">
+          <img src="../src/assets/icons/logo/logo-small.svg" class="header__logo"></img>
+        </div>
         <ul class="header__nav">
           <li class="header__main active"><a href="#">ГЛАВНАЯ</a></li>
           <li class="header__gallery"><a href="#">ГАЛЕРЕЯ</a></li>
@@ -21,7 +23,44 @@
         </ul>
       </div>
     </header>
+
+    <main>
+      <section class="slider">
+        <div class="slider__container _container">
+          <div class="slider__nav">
+            <h3 class="slider__title">
+              <span class="slider__title-first-name">PROJECT</span>
+              <span class="slider__title-second-name">HOME</span>
+            </h3>
+            <div class="slider__btns-nav">
+              <div class="slider__btns-wrapper">
+                <button class="slider__btn-left">
+                  <img src="../src/assets/icons/others/arrow-left.svg" alt="#">
+                </button>
+                <button class="slider__btn-right active">
+                  <img src="../src/assets/icons/others/arrow-right.svg" alt="#">
+                </button>
+              </div>
+              <span class="slider__btns-line"></span>
+            </div>
+            <div class="slider__pages">
+              <span class="slider__current-page">01</span>
+              <span class="slider__slash"></span>
+              <span class="slider__count-page">02</span>
+            </div>
+          </div>
+          <div class="slider__picture">
+            <button class="slider__show-btn btn-white">ВЗГЛЯНУТЬ
+              <img class="btn-white__arrow" src="../src/assets/icons/others/arrow-right.svg" alt="#">
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
   </div>
+
+
 </body>
 
 </html>
