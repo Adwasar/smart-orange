@@ -1,0 +1,44 @@
+.about__container {
+  margin-top: 122px;
+  display: flex;
+  padding: 30px 70px 30px 100px;
+  height: 435px;
+  gap: 30px;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+
+  .about__column-pictures1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 270px;
+  }
+
+  .about__column-pictures2 {
+    margin-top: 30px;
+    width: 270px;
+  }
+
+  .about__info {
+    margin-top: -5px;
+    flex: 1;
+
+    .about__title {
+      font-size: 64px;
+      font-weight: 300;
+      line-height: 64px;
+      color: #bdbdbd;
+    }
+
+    .about__description {
+      margin-top: 23px;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+    }
+
+    .about__show-btn {
+      margin-top: 5px;
+    }
+  }
+}
