@@ -1,0 +1,98 @@
+.our-projects__title {
+  margin-top: 116px;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+
+.our-projects__top {
+  margin-top: 64px;
+  display: flex;
+  gap: 30px;
+
+  :hover .overlay {
+    display: block;
+  }
+
+  .our-projects__project-one {
+    position: relative;
+    width: 570px;
+    height: 255px;
+    background: url('../assets/imgs/our-projects/Rectangle 12.png');
+  }
+
+  .our-projects__project-two {
+    width: 570px;
+    height: 255px;
+    background: url('../assets/imgs/our-projects/image 15.png');
+  }
+}
+
+.our-projects__bottom {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+
+  .our-projects__project-three {
+    width: 270px;
+    height: 255px;
+    background: url('../assets/imgs/our-projects/image 16.png');
+  }
+
+  .our-projects__project-four {
+    width: 470px;
+    height: 255px;
+    background: url('../assets/imgs/our-projects/image 17.png');
+  }
+
+  .our-projects__project-five {
+    width: 370px;
+    height: 255px;
+    background: url('../assets/imgs/our-projects/image 18.png');
+  }
+
+  :hover .overlay {
+    display: block;
+  }
+}
+
+.our-projects__btn {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.overlay {
+  display: none;
+  padding: 45px 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: rgba(#333, 0.8);
+  color: #fff;
+
+  .overlay__wrapper {
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    box-sizing: content-box;
+  }
+
+  span {
+    display: block;
+    margin-top: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+  }
+
+  img {
+    margin-left: 8px;
+  }
+}
