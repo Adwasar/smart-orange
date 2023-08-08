@@ -6,8 +6,16 @@
     height: 100%;
     align-items: center;
 
+    @media (max-width: 685px) {
+      justify-content: space-between;
+    }
+
     .header__logo-container {
       width: 400px;
+
+      @media (max-width: 685px) {
+        width: auto;
+      }
     }
 
     .header__nav {
@@ -16,11 +24,20 @@
       justify-content: space-between;
       flex-direction: row;
       width: 639px;
+      min-width: 520px;
       list-style: none;
       font-size: 12px;
       font-weight: 400;
       line-height: 12px;
       letter-spacing: 0.2em;
+
+      @media (max-width: 720px) {
+        min-width: 460px;
+      }
+
+      @media (max-width: 685px) {
+        display: none;
+      }
 
       li {
         padding: 4px 0;
@@ -31,5 +48,16 @@
         border-bottom: 1px solid black;
       }
     }
+  }
+}
+
+.header__burger-menu {
+  margin-right: 24px;
+  display: none;
+  width: 26px;
+  height: 26px;
+
+  @media (max-width: 685px) {
+    display: inline-block;
   }
 }
