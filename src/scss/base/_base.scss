@@ -7,6 +7,19 @@ h6 {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer__social-medias-list {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 185px;
+}
+
 a {
   text-decoration: none;
   color: inherit;

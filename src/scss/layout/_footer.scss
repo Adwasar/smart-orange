@@ -1,0 +1,100 @@
+.footer {
+  padding-top: 58px;
+  height: 417px;
+  background-color: #2c2c2c;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #fff;
+
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .footer__logo {
+      position: relative;
+      left: -19px;
+    }
+
+    .footer__info {
+      position: relative;
+      margin-left: -120px;
+
+      .footer__info-list {
+        margin-top: 24px;
+        position: relative;
+        left: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 184px;
+      }
+    }
+
+    .footer__contacts {
+      position: relative;
+      left: -43px;
+
+      .footer__contacts-list {
+        margin-top: 24px;
+        position: relative;
+        left: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 184px;
+
+        li {
+          display: flex;
+        }
+
+        li:nth-child(2) {
+          position: relative;
+          top: 13px;
+        }
+
+        .footer__location-img {
+          position: relative;
+          margin-left: -3px;
+          margin-right: 19px;
+          top: -15px;
+        }
+
+        .footer__phone-img {
+          position: relative;
+          margin-right: 12px;
+          top: -3px;
+        }
+
+        .footer__mail-img {
+          margin-right: 14px;
+        }
+      }
+    }
+
+    .footer__social-medias {
+      position: relative;
+      left: -85px;
+    }
+  }
+
+  .footer__copyright {
+    margin-top: 46px;
+    padding-top: 25px;
+    text-align: center;
+    color: rgba(200, 200, 200, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+  }
+}
+
+.footer__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
