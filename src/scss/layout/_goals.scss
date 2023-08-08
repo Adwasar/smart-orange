@@ -1,5 +1,12 @@
+.main-goals {
+  padding-top: 145px;
+
+  @media (max-width: 1050px) {
+    padding-top: 100px;
+  }
+}
+
 .main-goals__container {
-  margin-top: 145px;
   gap: 30px;
 
   .main-goals__title {
@@ -17,10 +24,20 @@
     height: 144px;
     box-sizing: border-box;
 
+    @media (max-width: 1050px) {
+      margin-top: 32px;
+      flex-direction: column;
+      height: auto;
+    }
+
     .main-goals__goal {
       display: flex;
       gap: 30px;
       flex: 1;
+
+      @media (max-width: 1050px) {
+        gap: 15px;
+      }
 
       .main-goals__number-one {
         font-family: 'SF Pro Display';
@@ -29,6 +46,11 @@
         width: 104px;
         line-height: 144px;
         color: #f2f2f2;
+
+        @media (max-width: 1050px) {
+          font-size: 160px;
+          width: auto;
+        }
       }
 
       .main-goals__number-two {
@@ -38,6 +60,11 @@
         line-height: 144px;
         width: 120px;
         color: #f2f2f2;
+
+        @media (max-width: 1050px) {
+          font-size: 160px;
+          width: auto;
+        }
       }
 
       .main-goals__description-one {
@@ -53,6 +80,7 @@
         font-size: 22px;
         font-weight: 400;
         line-height: 36px;
+        max-width: 420px;
       }
     }
   }

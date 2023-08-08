@@ -1,5 +1,9 @@
 .about {
   padding-top: 122px;
+
+  @media (max-width: 1050px) {
+    padding-top: 90px;
+  }
 }
 
 .about__container {
