@@ -2,6 +2,11 @@
   padding-top: 116px;
   padding-bottom: 120px;
 
+  @media (max-width: 1050px) {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
   .contact-with-us__title {
     font-size: 64px;
     font-weight: 300;
@@ -87,6 +92,10 @@
       flex: 1;
       height: 369px;
       background-image: url('../assets/imgs/contact-with-us/image 12.png');
+
+      @media (max-width: 1050px) {
+        display: none;
+      }
     }
   }
 }
