@@ -46,11 +46,6 @@
       li {
         padding: 4px 0;
       }
-
-      .active {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-      }
     }
   }
 }
@@ -64,4 +59,9 @@
   @media (max-width: 685px) {
     display: inline-block;
   }
+}
+
+.header__nav-item_active {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }

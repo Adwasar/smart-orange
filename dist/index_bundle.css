@@ -949,7 +949,7 @@ body {
   top: 78px;
 }
 
-.btn-white {
+.button {
   width: 222px;
   height: 71px;
   border: none;
@@ -959,11 +959,11 @@ body {
   line-height: 12px;
   letter-spacing: 0.2em;
 }
-.btn-white img {
+.button img {
   margin-left: 7px;
 }
 
-.btn-black {
+.button_black {
   width: 222px;
   height: 71px;
   border: none;
@@ -974,6 +974,6 @@ body {
   line-height: 12px;
   letter-spacing: 0.2em;
 }
-.btn-black img {
+.button_black img {
   margin-left: 7px;
 }
