@@ -23,12 +23,15 @@
 
     article {
       align-items: center;
+      overflow: hidden;
       width: 100% !important;
     }
   }
 
   :hover .overlay {
-    display: block;
+    opacity: 1;
+    margin-right: 0px;
+    transition: margin-right 0.3s;
   }
 
   .our-projects__project-one {
@@ -88,7 +91,9 @@
   }
 
   :hover .overlay {
-    display: block;
+    opacity: 1;
+    margin-right: 0px;
+    transition: margin-right 0.3s;
   }
 }
 
@@ -99,7 +104,8 @@
 }
 
 .overlay {
-  display: none;
+  opacity: 0;
+  margin-right: 100%;
   padding: 45px 0;
   box-sizing: border-box;
   height: 100%;
