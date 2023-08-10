@@ -13,6 +13,10 @@
     .header__logo-container {
       width: 400px;
 
+      img {
+        cursor: pointer;
+      }
+
       @media (max-width: 685px) {
         width: auto;
       }
